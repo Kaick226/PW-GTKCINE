@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    /*Modifica a maneira de exibir o tamanho de uma caixa,
+     define como as dimensões de um elemento são calculadas:
+      devem inculir preenchimento de bordas ou não */
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: url("../img/fundo2.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.cabecalho {
+    background-color: rgba(0, 0, 0, 0.822);
+    padding: 30px;
+    text-align: center;
+    color: rgb(216, 3, 3);
+}
+
+.imagens {
+    font-size: 20px;
+    background-color: rgb(235, 209, 172);
+    width: 65%;
+    padding: 3px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.822);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.imagens img{
+width:100%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgba(5, 0, 0, 0.726);
+    text-align: center;
+}
+
+.topnav a {
+    display: inline-block;
+    color: beige;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.topnav a:hover {
+    background-color: rgba(0, 0, 0, 0.384);
+    color: rgb(235, 8, 8);
+    border-bottom: solid 1px;
+    border-radius: 15px;
+}

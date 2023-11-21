@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    /*Modifica a maneira de exibir o tamanho de uma caixa,
+     define como as dimensões de um elemento são calculadas:
+      devem inculir preenchimento de bordas ou não */
+}
+
+body{
+    background-image: url("../img/fundo2.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.cabecalho {
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(173, 0, 0, 0.76);
+    border-radius: 10px;
+}
+
+.topnav {
+
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.774);
+    text-align: center;
+}
+
+.topnav a {
+    display: inline-block;
+    color: beige;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+.topnav a:hover {
+    background-color: rgba(0, 0, 0, 0.795);
+    color: rgb(255, 0, 0);
+    border-bottom: solid 1px rgb(255, 0, 0);
+    border-radius: 15px;
+}

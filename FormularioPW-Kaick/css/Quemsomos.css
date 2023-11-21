@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/fundo2.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.cabecalho{
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(231, 7, 7, 0.767);
+}
+.card
+{
+    background-color: rgba(231, 7, 7, 0.767);
+    padding: 20px;
+    margin-top: 20px;
+}
+.colEsq
+{
+    float: left;
+    width: 82%
+}
+.colDir
+{
+    float: left;
+    width: 18%;
+    padding-left: 20px;
+}
+.imagens
+{
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+.imagens img
+{
+    width: 100%
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgba(5, 0, 0, 0.726);
+    text-align: center;
+}
+
+.topnav a {
+    display: inline-block;
+    color: beige;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.topnav a:hover {
+    background-color: rgba(0, 0, 0, 0.384);
+    color: rgb(235, 8, 8);
+    border-bottom: solid 1px;
+    border-radius: 15px;
+}

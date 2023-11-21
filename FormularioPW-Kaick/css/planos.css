@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    background-image: url("../img/fundo1.jpg");
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.cabecalho {
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.863);
+    color: rgb(216, 3, 3);
+}
+h3{
+    padding: 15px;
+    text-align: center;
+    color: rgb(216, 3, 3);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.plan {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: calc(33.33% - 40px);
+    vertical-align: top;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.plan h2 {
+    font-size: 24px;
+}
+
+.plan p {
+    font-size: 16px;
+}
+
+.plan button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.plan button:hover {
+    background-color: #ff3838;
+}
